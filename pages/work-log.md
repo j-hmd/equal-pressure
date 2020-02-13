@@ -16,12 +16,11 @@ The initial schematics of the project includes:
 Objectives of the inital design are:
 * Familiarize myself with the Arduino IDE for NodeMCU
 * Create environment to develop the project
-* "Hello World" for this project is equivalent to obtaining sensor data in the serial port
-<img src="/assets/board-design-1.png" width="350" height="300">
-
-Initial design successful and the following set up was used with the Arduino IDE:
-
-<img src="/assets/arduino-settings.png" width="350" height="300">
+* "Hello World" for this project is equivalent to obtaining sensor data in the serial port, and the settings used in the Arduino IDE are as follows:
+<p float="left">
+  <img src="/assets/board-design-1.png" width="350" height="300">
+  <img src="/assets/arduino-settings.png" width="350" height="300">
+</p>
 
 Up next:
 * Connect to Blynk, and show results on blynk
