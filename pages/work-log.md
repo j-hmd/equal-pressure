@@ -20,6 +20,7 @@ Objectives of the inital design are:
 <img src="/assets/board-design-1.png" width="350" height="300">
 
 Initial design successful and the following set up was used with the Arduino IDE:
+
 <img src="/assets/arduino-settings.png" width="350" height="300">
 
 Up next:
