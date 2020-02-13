@@ -25,3 +25,8 @@ Initial design successful and the following set up was used with the Arduino IDE
 
 Up next:
 * Connect to Blynk, and show results on blynk
+
+### Choice: Blynk ###
+I chose to use the blynk digital dashboard, because the focus of this project for now is focus on nodemcu, the sensors, and programming C++. Therefore, building an UI (user interface) for this project would be out of scope and not a good use of time.
+Given the facility and good support/documentation for Blynk, I chose to build my simple interface with it.
+
