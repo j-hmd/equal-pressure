@@ -10,7 +10,7 @@
 
 const int sensorOut = A0;           // Pin A0 to read anaog input
 
-int pressure;                       // Store analog value for pressure
+int pressure=0;                       // Store analog value for pressure
 
 void setup() {
   Serial.begin(9600);               // Start serial communication
