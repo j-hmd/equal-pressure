@@ -9,7 +9,7 @@ Juliana | Feb 12 2020
 
 The initial schematics of the project includes:
 * micro USB
-* NodeMCU
+* NodeMCU ESP8266 12E
 * Force Sensitive Resistor 0.5''(SparkFUn)
 * 3.3k ohm resistor
 
