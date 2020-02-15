@@ -39,3 +39,5 @@ Juliana | Feb 15 2020
 Trying to run the Blynk app without success, but couldn't find any apparent bugs in the code.
 Found out that you can't run reading commands inside the void loop(), because that will flood Blynk cloud.
 [(Reference)](http://help.blynk.cc/en/articles/512056-how-to-display-any-sensor-data-in-blynk-app)
+
+Also learning more about Blynk conceps, like [virtual pins](http://help.blynk.cc/en/articles/512061-what-is-virtual-pins). Which is basically if we were extending the number of pins of the hardware, but these pins have no physical properties, they are virtual.
