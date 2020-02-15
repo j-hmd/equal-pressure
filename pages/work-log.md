@@ -29,3 +29,11 @@ Up next:
 I chose to use the blynk digital dashboard, because the focus of this project for now is focus on nodemcu, the sensors, and programming C++. Therefore, building an UI (user interface) for this project would be out of scope and not a good use of time.
 Given the facility and good support/documentation for Blynk, I chose to build my simple interface with it.
 
+Author|Date
+------|-----
+Juliana | Feb 15 2020
+
+### Learning ###
+Trying to run the Blynk app without success, but couldn't find any apparent bugs in the code.
+Found out that you can't run reading commands inside the void loop(), because that will flood Blynk cloud.
+[(Reference)](http://help.blynk.cc/en/articles/512056-how-to-display-any-sensor-data-in-blynk-app)
