@@ -29,6 +29,8 @@ Up next:
 I chose to use the blynk digital dashboard, because the focus of this project for now is focus on nodemcu, the sensors, and programming C++. Therefore, building an UI (user interface) for this project would be out of scope and not a good use of time.
 Given the facility and good support/documentation for Blynk, I chose to build my simple interface with it.
 
+------------
+
 Author|Date
 ------|-----
 Juliana | Feb 15 2020
