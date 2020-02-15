@@ -1,7 +1,9 @@
 # Working Log #
-Changes and lessons learned from the design process. This section is divided accorindg to the date of the changes, and all design decisions are further explained. All changes are added to the end of the document.
+Changes and lessons learned from the design process. This section is divided accorindg to the date of the changes, and all design decisions are further explained. All changes are added to the end of the document, and all the learning along the process is also documented here.
 
-## Design ##
+This log is in chronological order.
+
+-----------------------
 
 Author|Date
 ------|-----
@@ -33,7 +35,7 @@ Given the facility and good support/documentation for Blynk, I chose to build my
 
 Author|Date
 ------|-----
-Juliana | Feb 15 2020
+Juliana | Feb 14 2020
 
 ### Solving Issue #1 ###
 Trying to run the Blynk app without success, but couldn't find any apparent bugs in the code.
@@ -41,3 +43,13 @@ Found out that you can't run reading commands inside the void loop(), because th
 [(Reference)](http://help.blynk.cc/en/articles/512056-how-to-display-any-sensor-data-in-blynk-app)
 
 Also learning more about Blynk conceps, like [virtual pins](http://help.blynk.cc/en/articles/512061-what-is-virtual-pins). Which is basically if we were extending the number of pins of the hardware, but these pins have no physical properties, they are virtual.
+
+### Choice: PULL sensor data ###
+According to the documentation, there are two ways to get data from the sensor:
+1. PULL: Blynk will request data from your sensor
+2. PUSH: Hardware will constantly send data to the Blynk cloud, and the data will sit waiting.
+
+Decided to try to implement the PULL method. Because there is no need to store data. The user needs to see it and the app can forget about it.
+
+Up next: testing this! 
+
