@@ -80,3 +80,8 @@ Using the same schematics and same script, I connected the second sensor to Blyn
 - How to decide which one is being pressed with more force? Should the user decide?
 
 In order to decide which sensor is being pressed harder, we would need to make that decision in Blynk, since the two NodeMCUs would probably not be able to do that? 
+
+Other design considerations:
+- Battery life?
+- How to encapsulate product (enclosures)?
+- Data accuracy?
