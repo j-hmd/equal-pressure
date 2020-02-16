@@ -64,7 +64,19 @@ Juliana | Feb 15 2020
 After running the new code, still could not connect to the blynk app. I figured through this [post](https://community.blynk.cc/t/nodemcu-wasnt-online-yet/39851/9) that the network has to be 2.4Ghz. Problem fixed, the pressure value form the sensor is now showing on the blynk app.
 
 <p float="left">
-  <img src="/assets/blynk-sensor-1.png" width="350" height="300">
+  <img src="/assets/blynk-sensor-1.png" width="250" height="400">
 </p>
 
 Up next: connecting two sensors to the wifi and showing them in Blynk!
+
+### Milestone: 2 NodeMCUs with Blynk ###
+Using the same schematics and same script, I connected the second sensor to Blynk. Now I can see two pressures at once. 
+
+<p float="left">
+  <img src="/assets/blynk-sensor-2.png" width="250" height="300">
+</p>
+
+### Design Question ###
+- How to decide which one is being pressed with more force? Should the user decide?
+
+In order to decide which sensor is being pressed harder, we would need to make that decision in Blynk, since the two NodeMCUs would probably not be able to do that? 
