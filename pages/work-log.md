@@ -53,3 +53,18 @@ Decided to try to implement the PULL method. Because there is no need to store d
 
 Up next: testing this! 
 
+-------------
+
+Author|Date
+------|-----
+Juliana | Feb 15 2020
+
+## Milestone: Blynk app connection successful ###
+### Wifi ###
+After running the new code, still could not connect to the blynk app. I figured through this [post](https://community.blynk.cc/t/nodemcu-wasnt-online-yet/39851/9) that the network has to be 2.4Ghz. Problem fixed, the pressure value form the sensor is now showing on the blynk app.
+
+<p float="left">
+  <img src="/assets/blynk-sensor-1.png" width="350" height="300">
+</p>
+
+Up next: connecting two sensors to the wifi and showing them in Blynk!
