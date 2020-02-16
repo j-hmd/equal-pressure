@@ -73,7 +73,7 @@ Up next: connecting two sensors to the wifi and showing them in Blynk!
 Using the same schematics and same script, I connected the second sensor to Blynk. Now I can see two pressures at once. 
 
 <p float="left">
-  <img src="/assets/blynk-sensor-2.png" width="250" height="300">
+  <img src="/assets/blynk-sensor-2.png" width="250" height="400">
 </p>
 
 ### Design Question ###
