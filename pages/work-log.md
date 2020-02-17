@@ -85,3 +85,7 @@ Other design considerations:
 - Battery life?
 - How to encapsulate product (enclosures)?
 - Data accuracy?
+
+Up next: 
+- including external battery
+- cutting an insole and attching the sensors to the insole
