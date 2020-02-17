@@ -89,3 +89,4 @@ Other design considerations:
 Up next: 
 - including external battery
 - cutting an insole and attching the sensors to the insole
+- new [interface](https://randomnerdtutorials.com/esp8266-web-server/). Using a webserver that I can edit might give me more freedom to build custom solutions for the client, and also easier for them to access than to have blynk account. I could also integrate it with my Github Pages?? 
