@@ -19,14 +19,14 @@ const int sensorOut = A0;           // Pin A0 to read anaog input
 int pressure = 0;                   // Store analog value for pressure
 
 // Settings to connect to Blynk
-char auth[] = "secret";
-char ssid[] = "secret";       // Has to be a 2.4Ghz Network
-char pass[] = "secret";
+char auth[] = "U3ydgkv4dFpb-Up9AN1-L6L39n7rsAZH";
+char ssid[] = "CXNK00605F35";       // Has to be a 2.4Ghz Network
+char pass[] = "7783026654";
 
-BLYNK_READ(V5) // alternatively we could have used BlynkTimer and PUSH
+BLYNK_READ(V6) // alternatively we could have used BlynkTimer and PUSH
 {
   pressure = analogRead(sensorOut); // read sensor value
-  Blynk.virtualWrite(V5, pressure); // write sensor value to blynk
+  Blynk.virtualWrite(V6, pressure); // write sensor value to blynk
 }
 
 void setup()
