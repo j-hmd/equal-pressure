@@ -1,5 +1,4 @@
-wifi.setmode(wifi.STATION)
-wifi.sta.config("CXNK00605F35","7783026654")
+
 print(wifi.sta.getip())
 led1 = 2
 --led2 = 4
