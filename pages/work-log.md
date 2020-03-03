@@ -107,3 +107,9 @@ I was able to flash NodeMCU, and upload my Lua script to the board, then control
 
 Next:
 - Display pressure in the browser
+
+Author|Date
+------|-----
+Juliana | Mar 2 2020
+
+- Last two days spent on reading about the ESP8266, and how to use internet stack.
