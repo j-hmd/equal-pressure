@@ -123,3 +123,11 @@ Obs:
 > loadfile ([filename [, mode [, env]]]):
 >
 >Similar to load, but gets the chunk from file filename or from the standard input, if no file name is given.
+
+Author|Date
+------|-----
+Juliana | Mar 3 2020
+
+Finally found some documentation on the module that implements the TCP connection
+- Lua: https://www.lua.org/manual/5.1/manual.html
+- net Module: https://nodemcu.readthedocs.io/en/master/modules/net/#netsocketon
