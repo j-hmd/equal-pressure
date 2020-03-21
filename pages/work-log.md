@@ -90,3 +90,20 @@ Up next:
 - including external battery
 - cutting an insole and attching the sensors to the insole
 - new [interface](https://randomnerdtutorials.com/esp8266-web-server/). Using a webserver that I can edit might give me more freedom to build custom solutions for the client, and also easier for them to access than to have blynk account. I could also integrate it with my Github Pages?? 
+
+
+Author|Date
+------|-----
+Juliana | Feb 26 2020
+
+## Milestone: Web App with Lua ##
+The Blynk app was a good first start to the project, but it constrained the display format of the data to the Blynk Widgets. For more freedom in design, the project is starting to switch to an web server created with NodeMCU and LUA scripts. 
+
+I was able to flash NodeMCU, and upload my Lua script to the board, then controlling the built in LED via the web app. See images below:
+<p float="left">
+  <img src="/assets/web-app-1.PNG" width="250" height="400">&nbsp
+  <img src="/assets/built-in-led.JPG" width="250" height="400" style="transform:rotate(90deg);">
+</p>
+
+Next:
+- Display pressure in the browser
