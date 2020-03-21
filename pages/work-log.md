@@ -131,3 +131,13 @@ Juliana | Mar 3 2020
 Finally found some documentation on the module that implements the TCP connection
 - Lua: https://www.lua.org/manual/5.1/manual.html
 - net Module: https://nodemcu.readthedocs.io/en/master/modules/net/#netsocketon
+
+Author|Date
+------|-----
+Juliana | Mar 20 2020
+
+After a frustrating few days (also sidetracked by other priorities includin the corona virus crisis) finally could display the pressure values in the web page... 
+The solution for the problem was rather trivial and it happened because I forgot that Lua doesn't really have classes. So I could just save the value of `adc.read(0)` to the list "buf" to be sent to the client.
+
+Up next:
+- Figure out how to save the files to another format and send them to the client?
