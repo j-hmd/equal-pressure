@@ -107,3 +107,27 @@ I was able to flash NodeMCU, and upload my Lua script to the board, then control
 
 Next:
 - Display pressure in the browser
+
+Author|Date
+------|-----
+Juliana | Mar 2 2020
+
+- Last two days spent on reading about the ESP8266, and how to use internet stack.
+
+Obs:
+- For unknown reason, "dofile" doesn't work with the init.lua, but "loadfile" works:
+> dofile ([filename]):
+>
+> Opens the named file and executes its contents as a Lua chunk. When called without arguments, dofile executes the contents of the standard input (stdin). Returns all values returned by the chunk. In case of errors, dofile propagates the error to its caller (that is, dofile does not run in protected mode).
+
+> loadfile ([filename [, mode [, env]]]):
+>
+>Similar to load, but gets the chunk from file filename or from the standard input, if no file name is given.
+
+Author|Date
+------|-----
+Juliana | Mar 3 2020
+
+Finally found some documentation on the module that implements the TCP connection
+- Lua: https://www.lua.org/manual/5.1/manual.html
+- net Module: https://nodemcu.readthedocs.io/en/master/modules/net/#netsocketon
