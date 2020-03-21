@@ -100,9 +100,10 @@ Juliana | Feb 26 2020
 The Blynk app was a good first start to the project, but it constrained the display format of the data to the Blynk Widgets. For more freedom in design, the project is starting to switch to an web server created with NodeMCU and LUA scripts. 
 
 I was able to flash NodeMCU, and upload my Lua script to the board, then controlling the built in LED via the web app. See images below:
+
 <p float="left">
   <img src="/assets/web-app-1.PNG" width="250" height="400">&nbsp
-  <img src="/assets/built-in-led.JPG" width="250" height="400" style="transform:rotate(90deg);">
+  <img src="/assets/built-in-led.png" width="250" height="400" style="transform:rotate(90deg);">
 </p>
 
 Next:
@@ -138,6 +139,10 @@ Juliana | Mar 20 2020
 
 After a frustrating few days (also sidetracked by other priorities includin the corona virus crisis) finally could display the pressure values in the web page... 
 The solution for the problem was rather trivial and it happened because I forgot that Lua doesn't really have classes. So I could just save the value of `adc.read(0)` to the list "buf" to be sent to the client.
+
+<p float="left">
+  <img src="/assets/web-app-2.png" width="350" height="300">
+</p>
 
 Up next:
 - Figure out how to save the files to another format and send them to the client?
