@@ -1,7 +1,7 @@
 wifi.setmode(wifi.STATION)
 
-ssid = "CXNK00605F35"
-pwd= "7783026654"
+ssid = "***"
+pwd= "***"
 wifi.sta.config(ssid, pwd)
 
 wifi.sta.getip()
